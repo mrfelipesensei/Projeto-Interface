@@ -20,7 +20,11 @@ h1, h2 {
 header {
     background-color: #b30000;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+header,p{
+    margin-bottom: -15px;
 }
 
 section {
