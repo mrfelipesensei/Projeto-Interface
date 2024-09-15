@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e60000; /* Vermelho mais claro */
+    transform: scale(1.1); /* Aumenta um pouco o tamanho */
+}
+
+#meuTreino, #treinosRegistrados {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
